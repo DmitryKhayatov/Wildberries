@@ -7,7 +7,6 @@ import json
 import pandas as pd
 
 df_otchets = pd.read_excel(r"c:\Users\User\Парсеры_161024\Еженедельные отчёты.xlsx")
-#df_arch_otchets = pd.read_excel("Архивные еженедельные отчёты.xlsx")
 df_seller_id = pd.read_excel(r"c:\Users\User\Парсеры_161024\seller_id.xlsx")
 seller_id = df_seller_id['seller_id'][0]
 
